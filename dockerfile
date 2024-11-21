@@ -1,6 +1,6 @@
 FROM python:latest
 
-COPY ./ascii2pdf-master /app
+COPY . /app
 
 WORKDIR /app
 
